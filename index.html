@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Notes</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="icon" href="Images/Notes.png">
+</head>
+
+<body>
+    <main class="container">
+        <h1>
+            <img src="Images/Notes.png" alt="Notes image">
+            Notes
+        </h1>
+        <button id="createBtn" onclick="createNote()">
+            <img src="Images/edit.png" alt="Edit">
+            Create Note
+        </button>
+        <section class="notes-container" onclick="updateStorage()"></section>
+        <button id="resetBtn" onclick="resetNotes()">Reset Notes</button>
+    </main>
+</body>
+
+</html>
