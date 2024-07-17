@@ -87,3 +87,16 @@ body {
 #resetBtn:hover {
     background: linear-gradient(135deg, hsl(0, 100%, 5%), hsl(40, 100%, 50%));
 }
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+footer a {
+    color: hsl(0, 0%, 80%);
+}
